@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/webbydon29/heroku_sample/issues"
   },
-  "homepage": "https://github.com/webbydon29/heroku_sample#readme"
+  "homepage": "https://github.com/webbydon29/heroku_sample#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "pg": "^7.4.1"
+  }
 }
