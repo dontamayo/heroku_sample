@@ -1,0 +1,30 @@
+{
+  "name": "heroku_example",
+  "version": "1.0.0",
+  "engines": {
+    "node": "9.3.0"
+  },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "knex": "knex",
+    "postinstall": "knex migrate:latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbydon29/heroku_sample.git"
+  },
+  "keywords": [],
+  "author": "Don T",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webbydon29/heroku_sample/issues"
+  },
+  "homepage": "https://github.com/webbydon29/heroku_sample#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "pg": "^7.4.1"
+  }
+}
